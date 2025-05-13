@@ -1,9 +1,10 @@
 // Download Deno https://docs.deno.com/runtime/ then run
 // deno serve -A api/deno.ts
+// deployable to https://deno.com/deploy / https://dash.deno.com/
 
 import { Hono } from "npm:hono";
-// import { serveStatic } from "npm:hono/serve-static";
 import { cors } from "npm:hono/cors";
+// import { serveStatic } from "npm:hono/serve-static";
 
 const app = new Hono();
 
